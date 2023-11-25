@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mvvmDemo.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="entry 1" FontSize="Title"></Entry>
+            <Entry Placeholder="entry2" FontSize="Title"></Entry>
+                <Label Text="label"></Label>
+                <Button Text="submit" FontAttributes="Bold"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
